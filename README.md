@@ -2,6 +2,8 @@
 Personal `i3` control wrapper library. Improvements to i3's workspace switching and renaming
 
 ## workspace.py
+Arrange, rename, and navigate renamed containers
+
 This script corrects issues with renaming workspaces. Stock `i3` has a few bugs with space renaming:
   - Renamed spaces are moved to the end of the list
   - Renamed workspaces cannot be accessed with `$mod+num`
