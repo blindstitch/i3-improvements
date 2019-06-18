@@ -9,9 +9,6 @@ import argparse
 import subprocess
 from random import randint
 
-from pprint import PrettyPrinter
-pp = PrettyPrinter(); pprint = lambda x: pp.pprint(x)
-
 # Args
 parser = argparse.ArgumentParser(description='i3wm workspace controls')
 parser.add_argument('--goto',help='Goto workspace N',nargs='?')
@@ -101,7 +98,6 @@ def move_container_to_workspace(direction):
         subprocess.call(['i3-msg', 'workspace','next'])
 
 # Parse arguments
-print(args.command)
 if args.goto is not None:
     goto(int(args.goto))
 elif args.move is not None:
