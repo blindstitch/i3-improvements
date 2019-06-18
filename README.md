@@ -16,7 +16,7 @@ This script is meant to replace using `$mod+num` to create workspaces. Map a key
 `workspace.py --move {left,right}` - Move workspace  
 `workspace.py --move_container {left,right}` - Move container  
 `workspace.py --new` - Create a new container with a randomized name  
-`workspace.py --goto {index}` - Go to the *n*^th^ workspace
+`workspace.py --goto {index}` - Go to nth workspace
 
 ## Todo
  - Test `workspace.py` with first boot
