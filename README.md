@@ -2,7 +2,7 @@
 Personal `i3wm` control wrapper library. Improvements to workspace switching and renaming
 
 ## workspace.py
-Arrange, rename, and navigate renamed containers
+Arrange, rename, and navigate renamed workspaces
 
 This script corrects issues with renaming workspaces. Stock i3 has a few bugs with space renaming:
   - Renamed spaces are moved to the end of the list
@@ -22,4 +22,4 @@ This script is meant to replace using `$mod+num` to create workspaces. Map a key
 
 ## Todo
  - Test `workspace.py` with first boot
- - Clean up commands, build api for two-variable commands
+ - Move subprocess.call commands to dictionary, build api for two-variable commands
