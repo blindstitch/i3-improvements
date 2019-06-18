@@ -2,7 +2,7 @@
 Personal `i3wm` control wrapper library. Improvements to workspace switching and renaming
 
 ## workspace.py
-Arrange, rename, and navigate renamed workspaces
+Arrange, rename, create, and navigate renamed workspaces
 
 Stock i3 has a few annoying bugs with space renaming:
   - Renamed spaces are moved to the end of the list
